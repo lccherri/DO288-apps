@@ -13,6 +13,6 @@ spec:
             fieldRef:
               fieldPath: metadata.namespace
         envFrom:
-        - configmapRef:
+        - configMapRef:
             name: configmap-hello
         name: thorntail-v2
